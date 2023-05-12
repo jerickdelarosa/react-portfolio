@@ -2,10 +2,38 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
 import biancake from './biancake.jpg'
+import facebook from './facebook.svg'
+import instagram from './instagram.svg'
+import linkedin from './linkedin.svg'
+import twitter from './twitter.svg'
+import angular from './angular.svg'
+import aspnet from './aspnet.svg'
+import bootstrap from './bootstrap.svg'
+import github from './github.svg'
+import laravel from './laravel.svg'
+import react from './react.svg'
+import sass from './sass.svg'
+import tailwind from './tailwind.svg'
+import typescript from './typescript.svg'
+import vue from './vue.svg'
 
 // export { place all import names }
 export {
     menu,
     close,
-    biancake
+    biancake,
+    facebook,
+    instagram,
+    linkedin,
+    twitter,
+    angular,
+    aspnet,
+    bootstrap,
+    github,
+    laravel,
+    react,
+    sass,
+    tailwind,
+    typescript,
+    vue
 };

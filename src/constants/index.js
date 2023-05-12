@@ -1,3 +1,18 @@
+import {
+    linkedin,
+    github,
+    angular,
+    aspnet,
+    bootstrap,
+    laravel,
+    react,
+    sass,
+    tailwind,
+    typescript,
+    vue
+} from '../assets'
+
+
 export const navLinks = [
     {
         id: "home",
@@ -14,6 +29,58 @@ export const navLinks = [
     {
         id: "clients",
         title: "Clients",
+    },
+];
+
+export const socialMedia = [
+    {
+        id: "social-media-1",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/delarosa-jerick-t/",
+    },
+    {
+        id: "social-media-2",
+        icon: github,
+        link: "https://www.github.com/jerickdelarosa",
+    },
+];
+
+export const languages = [
+    {
+        id: "vue",
+        icon: vue,
+    },
+    {
+        id: "angular",
+        icon: angular,
+    },
+    {
+        id: "react",
+        icon: react,
+    },
+    {
+        id: "laravel",
+        icon: laravel,
+    },
+    {
+        id: "aspnet",
+        icon: aspnet,
+    },
+    {
+        id: "typescript",
+        icon: typescript,
+    },
+    {
+        id: "tailwind",
+        icon: tailwind,
+    },
+    {
+        id: "bootstrap",
+        icon: bootstrap,
+    },
+    {
+        id: "sass",
+        icon: sass,
     },
 ];
 

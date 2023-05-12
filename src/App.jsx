@@ -5,6 +5,7 @@ import styles from './styles'
 import {
   MainNav,
   Hero,
+  TechStack,
   Skills
 } from './components'
 
@@ -17,12 +18,12 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} py-4 sm:py-36`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
+        <TechStack />
       </div>
     </div>
-
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Skills />
