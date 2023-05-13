@@ -18,7 +18,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} py-4 sm:py-36`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} py-4 sm:py-20 md:py-28`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
         <TechStack />

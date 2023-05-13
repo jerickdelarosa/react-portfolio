@@ -2,6 +2,7 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
 import biancake from './biancake.jpg'
+import sana from './sana.jpg'
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
 import linkedin from './linkedin.svg'
@@ -22,6 +23,7 @@ export {
     menu,
     close,
     biancake,
+    sana,
     facebook,
     instagram,
     linkedin,
