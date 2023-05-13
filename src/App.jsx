@@ -24,7 +24,7 @@ const App = () => (
         <TechStack />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pt-4 sm:pt-20 md:pt-28`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} mt-4 sm:mt-20 md:mt-28`}>
       <div className={`${styles.boxWidth}`}>
         <Skills />
       </div>

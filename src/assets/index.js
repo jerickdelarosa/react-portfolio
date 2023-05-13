@@ -21,6 +21,7 @@ import coding from './coding.svg'
 import ideas from './ideas.svg'
 import programming from './programming.svg'
 import webDesign from './web-design.svg'
+import developer from './developer.svg'
 
 // export { place all import names }
 export {
@@ -45,5 +46,6 @@ export {
     coding,
     ideas,
     programming,
-    webDesign
+    webDesign,
+    developer
 };

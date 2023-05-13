@@ -7,7 +7,7 @@ const TechStack = () => (
         <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 md:px-8 px-0 ss:ml-0`}>
             <div className='flex flex-col items-center mt-5'>
                 <div className={`${styles.flexCenter} flex-col text-center`}>
-                    <p className={`font-poppins text-white text-[16px] md:text-[20px] max-w-[470px]`}>Tech Stack</p>
+                    <p className={`font-poppins mb-2 text-xl font-semibold text-white uppercase uppercase`}>Tech Stack</p>
                 </div>
                 <div className={`${styles.flexCenter} flex-row flex-wrap mt-2 md:mt-4 `}>
                     {languages.map((lang, index) => (
