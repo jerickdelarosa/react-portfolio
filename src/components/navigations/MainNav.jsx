@@ -7,7 +7,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'Home', href: 'home', current: false },
-    { name: 'Skills', href: 'skills', current: false },
+    { name: 'About', href: 'about', current: false },
     { name: 'Projects', href: 'projects', current: false },
     { name: 'Contact', href: 'contact', current: false },
 ]
@@ -37,7 +37,7 @@ const MainNav = () => {
                             </div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
-                                    <p className='text-white font-poppins font-bold uppercase xl:text-[22px] text-[20px]'>Jedero</p>
+                                    <p className='text-white font-poppins font-bold uppercase xl:text-[22px] text-[20px]'>Twice.Sana</p>
                                 </div>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">

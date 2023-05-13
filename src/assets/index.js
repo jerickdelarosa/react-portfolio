@@ -17,6 +17,10 @@ import sass from './sass.svg'
 import tailwind from './tailwind.svg'
 import typescript from './typescript.svg'
 import vue from './vue.svg'
+import coding from './coding.svg'
+import ideas from './ideas.svg'
+import programming from './programming.svg'
+import webDesign from './web-design.svg'
 
 // export { place all import names }
 export {
@@ -37,5 +41,9 @@ export {
     sass,
     tailwind,
     typescript,
-    vue
+    vue,
+    coding,
+    ideas,
+    programming,
+    webDesign
 };

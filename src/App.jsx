@@ -18,13 +18,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} py-4 sm:py-20 md:py-28`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pt-4 sm:pt-20 md:pt-28`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
         <TechStack />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pt-4 sm:pt-20 md:pt-28`}>
       <div className={`${styles.boxWidth}`}>
         <Skills />
       </div>
