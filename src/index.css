@@ -30,6 +30,15 @@
   text-fill-color: transparent;
 }
 
+.text-radial-green {
+  background: rgb(52, 196, 54);
+  background: linear-gradient(90deg, rgba(52, 196, 54, 1) 0%, rgba(253, 253, 253, 1) 78%, rgba(52, 196, 54, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,
       #def9fa -43.27%,

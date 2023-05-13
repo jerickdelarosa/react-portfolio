@@ -6,10 +6,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '#', current: false },
-    { name: 'Skills', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Home', href: 'home', current: false },
+    { name: 'Skills', href: 'skills', current: false },
+    { name: 'Projects', href: 'projects', current: false },
+    { name: 'Contact', href: 'contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -22,9 +22,9 @@ const MainNav = () => {
         <Disclosure as="nav" className="bg-transparent">
             {({ open }) => (
                 <>
-                    <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div className="mx-auto">
                         <div className="relative flex h-16 items-center justify-between">
-                            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                            <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                                 {/* Mobile menu button*/}
                                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>
@@ -46,14 +46,20 @@ const MainNav = () => {
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}
-                                                href={item.href}
-                                                className={`${classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-slate-900 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium')} uppercase font-poppins`}
+                                                href={`#${item.href}`}
+                                                className={`${classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:border-green hover:text-white', 'border-b-2 border-transparent px-3 py-2 text-sm font-medium')} uppercase font-poppins`}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
                                                 {item.name}
                                             </a>
                                         ))}
                                     </div>
+                                    {/* <a
+                                                key={item.name}
+                                                href={item.href}
+                                                className={`${classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-green hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium')} uppercase font-poppins`}
+                                                aria-current={item.current ? 'page' : undefined}
+                                            > */}
                                 </div>
                             </div>
                         </div>
@@ -65,9 +71,9 @@ const MainNav = () => {
                                 <Disclosure.Button
                                     key={item.name}
                                     as="a"
-                                    href={item.href}
+                                    href={`#${item.href}`}
                                     className={`${classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-slate-900 hover:text-white',
+                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-green  hover:text-white',
                                         'block rounded-md px-3 py-2 text-base font-medium'
                                     )} uppercase font-poppins`}
                                     aria-current={item.current ? 'page' : undefined}
@@ -78,8 +84,9 @@ const MainNav = () => {
                         </div>
                     </Disclosure.Panel>
                 </>
-            )}
-        </Disclosure>
+            )
+            }
+        </Disclosure >
     )
 }
 
