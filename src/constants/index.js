@@ -38,11 +38,13 @@ export const navLinks = [
 export const socialMedia = [
     {
         id: "social-media-1",
+        title: "linkedin",
         icon: linkedin,
         link: "https://www.linkedin.com/in/delarosa-jerick-t/",
     },
     {
         id: "social-media-2",
+        title: "github",
         icon: github,
         link: "https://www.github.com/jerickdelarosa",
     },
