@@ -3,11 +3,13 @@ import MainNav from "./navigations/MainNav"
 import Hero from './sections/Hero'
 import TechStack from './sections/TechStack'
 import Skills from './sections/Skills'
+import Portfolio from './sections/Portfolio'
 
 // export { list of all component-name }
 export {
     MainNav,
     Hero,
     TechStack,
-    Skills
+    Skills,
+    Portfolio
 }

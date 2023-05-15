@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        'mainBackground': "url('/src/assets/code-background.jpg')",
+      }
     },
     screens: {
       notfold: "275px",
