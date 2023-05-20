@@ -139,11 +139,11 @@
 }
 
 .background-container {
-  background-image: url('./assets/code-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url('./assets/code-background.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+
 }
 
 .background-container:before {}
