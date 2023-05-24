@@ -14,7 +14,7 @@ const About = () => (
                     About me
                 </h5>
                 <p className="mb-4 font-poppins font-normal text-dimWhite text-center sm:text-start">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    A full-stack developer who has always been passionate about coding. Although I have gained considerable knowledge in this field, I am always eager to learn more, and I believe that keeps me motivated. I am constantly seeking opportunities and collaborations to enhance my expertise, particularly in cutting-edge technologies, programming languages, and applications.
                 </p>
             </div>
         </div>
