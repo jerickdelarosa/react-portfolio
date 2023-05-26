@@ -9,13 +9,17 @@ import {
     tailwind,
     typescript,
     vue,
+    csharp,
+    dotNetCore,
     coding,
     ideas,
     programming,
     webDesign,
     mechKeeb1,
     mechKeeb2,
-    mechKeeb3
+    mechKeeb3,
+    maleAvatar,
+    femaleAvatar
 } from '../assets'
 
 
@@ -71,8 +75,8 @@ export const languages = [
         icon: laravel,
     },
     {
-        id: "aspnet",
-        icon: aspnet,
+        id: "net-csharp",
+        icon: dotNetCore,
     },
     {
         id: "typescript",
@@ -112,7 +116,7 @@ export const skills = [
 export const projects = [
     {
         id: "project-1",
-        title: "Document Tracking System",
+        title: "DOCUMENT TRACKING SYSTEM",
         description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
         projectImg: mechKeeb1,
         languages: [
@@ -133,18 +137,20 @@ export const projects = [
             {
                 id: "dev-1",
                 title: "Kevin Kim De Vera",
-                designation: "Lead Web Developer"
+                avatar: maleAvatar,
+                designation: "Lead Web Developer",
             },
             {
                 id: "dev-2",
                 title: "Jerick Dela Rosa",
+                avatar: maleAvatar,
                 designation: "Web Developer"
             },
         ]
     },
     {
         id: "project-2",
-        title: "Electronic Records Management System",
+        title: "E-RECORDS MANAGEMENT SYSTEM",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
         projectImg: mechKeeb2,
         languages: [
@@ -165,16 +171,59 @@ export const projects = [
             {
                 id: "dev-1",
                 title: "Joseph Reynaldo",
+                avatar: maleAvatar,
                 designation: "Lead Web Developer"
             },
             {
                 id: "dev-2",
-                title: "Jerimaiah Peralta",
+                title: "Jeremiah Peralta",
+                avatar: maleAvatar,
                 designation: "Web Developer"
             },
             {
                 id: "dev-3",
                 title: "Jerick Dela Rosa",
+                avatar: maleAvatar,
+                designation: "Web Developer"
+            },
+        ]
+    },
+    {
+        id: "project-3",
+        title: "E-RECORDS MANAGEMENT SYSTEM v2",
+        description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
+        projectImg: mechKeeb3,
+        languages: [
+            {
+                id: "lang-1",
+                title: "Blazor"
+            },
+            {
+                id: "lang-2",
+                title: ".NET C#"
+            },
+            {
+                id: "lang-3",
+                title: "MS SQL"
+            },
+        ],
+        developers: [
+            {
+                id: "dev-1",
+                title: "Joseph Reynaldo",
+                avatar: maleAvatar,
+                designation: "Lead Web Developer"
+            },
+            {
+                id: "dev-2",
+                title: "Jeremiah Peralta",
+                avatar: maleAvatar,
+                designation: "Web Developer"
+            },
+            {
+                id: "dev-3",
+                title: "Jerick Dela Rosa",
+                avatar: maleAvatar,
                 designation: "Web Developer"
             },
         ]

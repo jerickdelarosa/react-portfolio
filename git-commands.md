@@ -10,3 +10,6 @@ git push origin branch-name
 
 #check status
 git status
+
+#tailwind carousel
+https://tailwindcomponents.com/component/carousel

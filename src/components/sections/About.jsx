@@ -2,7 +2,7 @@ import React from 'react'
 import { developer } from '../../assets'
 
 const About = () => (
-    <div className='flex flex-row items-center justify-center my-3 md:my-6 sm:px-0 px-6 lg:pt-10'>
+    <div className='flex flex-row items-center justify-center my-3 md:my-6 sm:px-0 px-6 pt-10'>
         <div className="flex flex-col rounded-2xl bg-transparent sm:max-w-xl md:max-w-4xl sm:flex-row md:px-8 md:py-4">
             <img
                 className="h-auto w-full object-cover xs:w-60 xs:h-full sm:w-60 sm:h-48 md:w-full md:h-60 p-4 md:px-8 self-center"
