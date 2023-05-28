@@ -42,7 +42,7 @@ export const navLinks = [
     },
 ];
 
-export const socialMedia = [
+export const mediaLinks = [
     {
         id: "social-media-1",
         title: "linkedin",

@@ -36,7 +36,7 @@ const App = () => (
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart} mt-4 sm:mt-20 md:mt-24 bg-darkPrimary`}>
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-4 bg-darkPrimary`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

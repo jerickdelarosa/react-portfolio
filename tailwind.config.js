@@ -22,7 +22,7 @@ module.exports = {
       }
     },
     screens: {
-      notfold: "275px",
+      fold: "275px",
       xs: "480px",
       ss: "620px",
       sm: "768px",
