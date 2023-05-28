@@ -16,8 +16,8 @@ const Hero = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-2 self-center md:self-auto`}>Hi, I'm Sana Minatozaki. A passionate Full Stack Developer based in Manila, Philippines.</p>
             <div className={`flex flex-row mt-3 self-center md:self-auto`}>
                 {socialMedia.map((social, index) => (
-                    <a href={social.link}>
-                        <img key={`${social.id}-${index}`} src={social.icon} alt={social.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-4" : "mr-0"} cursor-default`} />
+                    <a href={social.link} key={`${social.id}-${index}`} >
+                        <img src={social.icon} alt={social.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-4" : "mr-0"}`} />
                     </a>
                 ))}
             </div>

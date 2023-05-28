@@ -30,6 +30,9 @@ import mechKeeb3 from './mechanical-keyboard-3.jpg'
 import dotNetCore from './dot-net-core.svg'
 import maleAvatar from './male_avatar.svg'
 import femaleAvatar from './female_avatar.svg'
+import location from './location.svg'
+import phoneCall from './phone-call.svg'
+import mail from './mail.svg'
 
 // export { place all import names }
 export {
@@ -63,5 +66,8 @@ export {
     mechKeeb2,
     mechKeeb3,
     maleAvatar,
-    femaleAvatar
+    femaleAvatar,
+    location,
+    phoneCall,
+    mail
 };
