@@ -6,7 +6,9 @@ import {
   Hero,
   TechStack,
   Skills,
-  Portfolio
+  Portfolio,
+  Contact,
+  Footer
 } from './components'
 
 const App = () => (
@@ -30,8 +32,11 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Skills />
           <Portfolio />
+          <Contact />
+          <Footer />
         </div>
       </div>
+
     </div>
 
   </div >

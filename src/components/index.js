@@ -4,6 +4,8 @@ import Hero from './sections/Hero'
 import TechStack from './sections/TechStack'
 import Skills from './sections/Skills'
 import Portfolio from './sections/Portfolio'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 // export { list of all component-name }
 export {
@@ -11,5 +13,7 @@ export {
     Hero,
     TechStack,
     Skills,
-    Portfolio
+    Portfolio,
+    Contact,
+    Footer
 }
