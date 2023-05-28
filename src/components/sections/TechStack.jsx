@@ -11,7 +11,7 @@ const TechStack = () => (
                 </div>
                 <div className={`${styles.flexCenter} flex-row flex-wrap mt-2 md:mt-4 `}>
                     {languages.map((lang, index) => (
-                        <img key={`${lang.id}-${index}`} src={lang.icon} alt={lang.id} className={`w-[48px] h-[48px] ss:w-[54px] ss:h-[54px] object-contain cursor-pointer my-2 mx-4 ss:my-4 ss:mx-8 ${index !== lang.length - 1 ? "mr-4" : "mr-0"}  cursor-default`} />
+                        <img key={`${lang.id}-${index}`} src={lang.icon} alt={lang.id} className={`w-[48px] h-[48px] ss:w-[54px] ss:h-[54px] object-contain cursor-default my-2 mx-4 ss:my-4 ss:mx-8 ${index !== lang.length - 1 ? "mr-4" : "mr-0"}  cursor-default`} />
                     ))}
                 </div>
             </div>

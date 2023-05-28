@@ -137,3 +137,13 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.background-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url('./assets/code-background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.background-container:before {}

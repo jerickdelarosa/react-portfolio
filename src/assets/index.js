@@ -17,11 +17,19 @@ import sass from './sass.svg'
 import tailwind from './tailwind.svg'
 import typescript from './typescript.svg'
 import vue from './vue.svg'
+import csharp from './csharp.svg'
 import coding from './coding.svg'
 import ideas from './ideas.svg'
 import programming from './programming.svg'
 import webDesign from './web-design.svg'
 import developer from './developer.svg'
+import codeBackground from './code-background.jpg'
+import mechKeeb1 from './mechanical-keyboard-1.jpg'
+import mechKeeb2 from './mechanical-keyboard-2.jpg'
+import mechKeeb3 from './mechanical-keyboard-3.jpg'
+import dotNetCore from './dot-net-core.svg'
+import maleAvatar from './male_avatar.svg'
+import femaleAvatar from './female_avatar.svg'
 
 // export { place all import names }
 export {
@@ -43,9 +51,17 @@ export {
     tailwind,
     typescript,
     vue,
+    csharp,
+    dotNetCore,
     coding,
     ideas,
     programming,
     webDesign,
-    developer
+    developer,
+    codeBackground,
+    mechKeeb1,
+    mechKeeb2,
+    mechKeeb3,
+    maleAvatar,
+    femaleAvatar
 };

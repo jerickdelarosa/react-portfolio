@@ -14,7 +14,7 @@ const Skills = () => {
     return (
         <section id="about" className={`flex flex-col sm:my-16 my-4 sm:px-16 px-0`}>
             <About />
-            <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-0 px-6 ss:ml-0 text-center md:text-start`}>
+            <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-0 px-6 ss:ml-0 text-center md:text-start lg:pb-10`}>
                 <div className='flex flex-col md:flex-row'>
                     {skills.map((skill, index) => (
                         <div key={index} className=" flex flex-col rounded-2xl bg-white xs:max-w-xs sm:max-w-xl sm:flex-row md:max-w-xs md:flex-col my-4 md:mx-2 lg:mx-4 ">
