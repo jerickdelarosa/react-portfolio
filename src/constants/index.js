@@ -42,7 +42,7 @@ export const navLinks = [
     },
 ];
 
-export const socialMedia = [
+export const mediaLinks = [
     {
         id: "social-media-1",
         title: "linkedin",
@@ -51,6 +51,21 @@ export const socialMedia = [
     },
     {
         id: "social-media-2",
+        title: "github",
+        icon: github,
+        link: "https://www.github.com/jerickdelarosa",
+    },
+];
+
+export const footerLinks = [
+    {
+        id: "footer-media-1",
+        title: "linkedin",
+        icon: linkedin,
+        link: "https://www.linkedin.com/in/delarosa-jerick-t/",
+    },
+    {
+        id: "footer-media-2",
         title: "github",
         icon: github,
         link: "https://www.github.com/jerickdelarosa",
@@ -117,6 +132,7 @@ export const projects = [
     {
         id: "project-1",
         title: "DOCUMENT TRACKING SYSTEM",
+        year: "2021",
         description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
         projectImg: mechKeeb1,
         languages: [
@@ -151,6 +167,7 @@ export const projects = [
     {
         id: "project-2",
         title: "E-RECORDS MANAGEMENT SYSTEM",
+        year: "2022",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
         projectImg: mechKeeb2,
         languages: [
@@ -191,6 +208,7 @@ export const projects = [
     {
         id: "project-3",
         title: "E-RECORDS MANAGEMENT SYSTEM v2",
+        year: "2023",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
         projectImg: mechKeeb3,
         languages: [
@@ -227,6 +245,24 @@ export const projects = [
                 designation: "Web Developer"
             },
         ]
+    },
+]
+
+export const contacts = [
+    {
+        id: "contact-1",
+        title: "Location",
+        content: "Hagonoy, Bulacan, Philippines"
+    },
+    {
+        id: "contact-2",
+        title: "Phone",
+        content: "+63 987-654-3210"
+    },
+    {
+        id: "contact-3",
+        title: "Mail",
+        content: "delarosajerick26@gmail.com"
     },
 ]
 

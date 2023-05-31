@@ -33,6 +33,11 @@ const App = () => (
           <Skills />
           <Portfolio />
           <Contact />
+        </div>
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-4 bg-darkPrimary`}>
+        <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
       </div>

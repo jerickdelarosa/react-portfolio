@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles'
 import { biancake, sana } from '../../assets'
-import { socialMedia } from '../../constants'
+import { mediaLinks } from '../../constants'
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col sm:py-4 py-4 sm:px-16 px-0`}>
@@ -15,9 +15,9 @@ const Hero = () => (
             </h1>
             <p className={`${styles.paragraph} max-w-[470px] mt-2 self-center md:self-auto`}>Hi, I'm Sana Minatozaki. A passionate Full Stack Developer based in Manila, Philippines.</p>
             <div className={`flex flex-row mt-3 self-center md:self-auto`}>
-                {socialMedia.map((social, index) => (
-                    <a href={social.link}>
-                        <img key={`${social.id}-${index}`} src={social.icon} alt={social.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-4" : "mr-0"} cursor-default`} />
+                {mediaLinks.map((media, index) => (
+                    <a href={media.link} key={`${media.id}-${index}`} >
+                        <img src={media.icon} alt={media.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== mediaLinks.length - 1 ? "mr-4" : "mr-0"}`} />
                     </a>
                 ))}
             </div>
