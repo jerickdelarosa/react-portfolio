@@ -34,6 +34,13 @@ import location from './location.svg'
 import phoneCall from './phone-call.svg'
 import mail from './mail.svg'
 
+// dts images
+import dtsInfo from './webapp-images/dts/dts-docu-info.png'
+import dtsGmailLogin from './webapp-images/dts/dts-gmail-login.png'
+import dtsOffices from './webapp-images/dts/dts-offices.png'
+import dtsOfficesInfo from './webapp-images/dts/dts-offices-info.png'
+import dtsLogin from './webapp-images/dts/dts-pass-login.png'
+
 // export { place all import names }
 export {
     menu,
@@ -69,5 +76,11 @@ export {
     femaleAvatar,
     location,
     phoneCall,
-    mail
+    mail,
+
+    dtsInfo,
+    dtsGmailLogin,
+    dtsOffices,
+    dtsOfficesInfo,
+    dtsLogin
 };

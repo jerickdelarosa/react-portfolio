@@ -19,7 +19,12 @@ import {
     mechKeeb2,
     mechKeeb3,
     maleAvatar,
-    femaleAvatar
+    femaleAvatar,
+    dtsInfo,
+    dtsGmailLogin,
+    dtsOffices,
+    dtsOfficesInfo,
+    dtsLogin
 } from '../assets'
 
 
@@ -134,7 +139,29 @@ export const projects = [
         title: "DOCUMENT TRACKING SYSTEM",
         year: "2021",
         description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb1,
+        projectImg: dtsGmailLogin,
+        images: [
+            {
+                id: 1,
+                content: dtsInfo,
+            },
+            {
+                id: 2,
+                content: dtsGmailLogin,
+            },
+            {
+                id: 3,
+                content: dtsOffices,
+            },
+            {
+                id: 4,
+                content: dtsOfficesInfo,
+            },
+            {
+                id: 5,
+                content: dtsLogin,
+            }
+        ],
         languages: [
             {
                 id: "lang-1",
@@ -169,7 +196,29 @@ export const projects = [
         title: "E-RECORDS MANAGEMENT SYSTEM",
         year: "2022",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb2,
+        projectImg: dtsOffices,
+        images: [
+            {
+                id: 1,
+                content: dtsInfo,
+            },
+            {
+                id: 2,
+                content: dtsGmailLogin,
+            },
+            {
+                id: 3,
+                content: dtsOffices,
+            },
+            {
+                id: 4,
+                content: dtsOfficesInfo,
+            },
+            {
+                id: 5,
+                content: dtsLogin,
+            }
+        ],
         languages: [
             {
                 id: "lang-1",
@@ -210,7 +259,29 @@ export const projects = [
         title: "E-RECORDS MANAGEMENT SYSTEM v2",
         year: "2023",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb3,
+        projectImg: dtsLogin,
+        images: [
+            {
+                id: 1,
+                content: dtsInfo,
+            },
+            {
+                id: 2,
+                content: dtsGmailLogin,
+            },
+            {
+                id: 3,
+                content: dtsOffices,
+            },
+            {
+                id: 4,
+                content: dtsOfficesInfo,
+            },
+            {
+                id: 5,
+                content: dtsLogin,
+            }
+        ],
         languages: [
             {
                 id: "lang-1",
