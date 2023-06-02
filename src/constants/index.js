@@ -24,7 +24,10 @@ import {
     dtsGmailLogin,
     dtsOffices,
     dtsOfficesInfo,
-    dtsLogin
+    dtsLogin,
+    ermsv2Dashboard,
+    ermsv2Request,
+    ermsv2RequestDetails
 } from '../assets'
 
 
@@ -139,7 +142,7 @@ export const projects = [
         title: "DOCUMENT TRACKING SYSTEM",
         year: "2021",
         description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
-        projectImg: dtsGmailLogin,
+        projectImg: dtsOffices,
         images: [
             {
                 id: 1,
@@ -191,7 +194,7 @@ export const projects = [
             },
         ]
     },
-    {
+    /* {
         id: "project-2",
         title: "E-RECORDS MANAGEMENT SYSTEM",
         year: "2022",
@@ -253,13 +256,13 @@ export const projects = [
                 designation: "Web Developer"
             },
         ]
-    },
+    }, */
     {
         id: "project-3",
-        title: "E-RECORDS MANAGEMENT SYSTEM v2",
+        title: "RECORDS MANAGEMENT SYSTEM v2",
         year: "2023",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: dtsLogin,
+        projectImg: ermsv2Dashboard,
         images: [
             {
                 id: 1,

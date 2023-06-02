@@ -41,6 +41,10 @@ import dtsOffices from './webapp-images/dts/dts-offices.png'
 import dtsOfficesInfo from './webapp-images/dts/dts-offices-info.png'
 import dtsLogin from './webapp-images/dts/dts-pass-login.png'
 
+// erms v2
+import ermsv2Dashboard from './webapp-images/ermsv2/ermsv2-dashboard.png'
+import ermsv2Request from './webapp-images/ermsv2/ermsv2-request.png'
+import ermsv2RequestDetails from './webapp-images/ermsv2/ermsv2-request-details.png'
 // export { place all import names }
 export {
     menu,
@@ -82,5 +86,9 @@ export {
     dtsGmailLogin,
     dtsOffices,
     dtsOfficesInfo,
-    dtsLogin
+    dtsLogin,
+
+    ermsv2Dashboard,
+    ermsv2Request,
+    ermsv2RequestDetails
 };
