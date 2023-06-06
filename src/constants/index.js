@@ -142,7 +142,7 @@ export const projects = [
         title: "DOCUMENT TRACKING SYSTEM",
         year: "2021",
         description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
-        projectImg: dtsOffices,
+        projectImg: dtsInfo,
         images: [
             {
                 id: 1,
@@ -262,28 +262,20 @@ export const projects = [
         title: "RECORDS MANAGEMENT SYSTEM v2",
         year: "2023",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: ermsv2Dashboard,
+        projectImg: ermsv2RequestDetails,
         images: [
             {
                 id: 1,
-                content: dtsInfo,
+                content: ermsv2Dashboard
             },
             {
                 id: 2,
-                content: dtsGmailLogin,
+                content: ermsv2Request
             },
             {
                 id: 3,
-                content: dtsOffices,
+                content: ermsv2RequestDetails
             },
-            {
-                id: 4,
-                content: dtsOfficesInfo,
-            },
-            {
-                id: 5,
-                content: dtsLogin,
-            }
         ],
         languages: [
             {
