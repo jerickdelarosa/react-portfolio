@@ -4,7 +4,7 @@ import { mechKeeb1, mechKeeb2, mechKeeb3 } from '../../assets'
 
 const ProjectTemplate = ({ title, year, description, projectImg, images, languages, developers, index }) => (
     <div className={`mt-3 lg:-mx-6 md:flex lg:items-center lg:justify-center ${index > 0 ? "pt-16" : "pt-0"}`}>
-        <img className={`order-1 ${index % 2 == 0 ? "md:order-1" : "md:order-2"} object-contain lg:object-scale-down w-full md:mx-6 md:w-1/2 rounded-xl sm:h-72 md:h-80`} src={projectImg} alt="" />
+        <img className={`order-1 ${index % 2 == 0 ? "md:order-1" : "md:order-2"} object-contain lg:object-scale-down w-full md:mx-6 md:w-1/2  sm:h-72 md:h-80`} src={projectImg} alt="" />
         <div className={`order-2 ${index % 2 == 0 ? "md:order-2" : "md:order-1"} mt-6 md:w-1/2 md:mt-0 md:mx-6`}>
             <p className="font-poppins block text-xl font-semibold text-green md:text-2xl">
                 {title}

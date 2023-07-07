@@ -9,7 +9,7 @@ const Contact = () => {
                     <h5 className="font-poppins mb-2 text-xl lg:text-2xl font-semibold text-green uppercase text-center sm:text-start">
                         Contact
                     </h5>
-                    <p className="lg:w-2/3 text-center sm:text-start leading-relaxed mb-4 font-poppins font-normal lg:text-[18px] text-dimWhite ">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p className="lg:w-2/3 text-center sm:text-start leading-relaxed mb-4 font-poppins font-normal lg:text-[18px] text-dimWhite ">I would love to hear from you. Please get in touch with me through any of the channels listed below, and I'll do my best to get back to you as soon as possible. I appreciate you stopping by, and I look forward to connecting with you soon!</p>
                 </div>
                 <div className="flex flex-col ss:flex-row text-center md:text-start  mt-8">
                     <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
