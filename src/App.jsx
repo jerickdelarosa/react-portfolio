@@ -8,13 +8,15 @@ import {
   Skills,
   Portfolio,
   Contact,
-  Footer
+  Footer,
+  ScrollToTop
 } from './components'
 
 const App = () => (
   <div className={`w-full overflow-hidden background-container `}>
 
     <div>
+      <ScrollToTop />
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`xl:max-w-[1280px] w-full`}>
           <MainNav />

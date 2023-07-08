@@ -33,6 +33,7 @@ import femaleAvatar from './female_avatar.svg'
 import location from './location.svg'
 import phoneCall from './phone-call.svg'
 import mail from './mail.svg'
+import resume from './resume.svg'
 
 // dts images
 import dtsInfo from './webapp-images/dts/dts-docu-info.png'
@@ -81,6 +82,7 @@ export {
     location,
     phoneCall,
     mail,
+    resume,
 
     dtsInfo,
     dtsGmailLogin,
