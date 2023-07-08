@@ -1,6 +1,5 @@
 import React from 'react'
 import { projects } from '../../constants'
-import { mechKeeb1, mechKeeb2, mechKeeb3 } from '../../assets'
 
 const ProjectTemplate = ({ title, year, description, projectImg, images, languages, developers, index }) => (
     <div className={`mt-3 lg:-mx-6 md:flex lg:items-center lg:justify-center ${index > 0 ? "pt-16" : "pt-0"}`}>
