@@ -35,7 +35,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="p-2 lg:max-w-1/3 md:max-w-1/3 w-10/12 ss:w-full">
-                        <a href="mailto:delarosajerick26@gmail.com">
+                        <a href="/assets/pdf/Dela Rosa, Jerick T. - CV 2023.pdf" target='_blank'>
                             <div className="h-full border-gray-200 border p-4 rounded-lg bg-white flex items-center justify-center flex-col md:flex-row">
                                 <img alt={resume} className="w-14 h-14 object-cover object-center shrink-0 md:mr-4 p-2" src={resume} />
                                 <div className="grow">
