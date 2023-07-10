@@ -1,12 +1,9 @@
-import React, { useState, Fragment } from 'react'
-import { menu, close } from '../../assets'
-import { navLinks } from '../../constants'
+import React from 'react'
 
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: 'home', current: false },
     { name: 'About', href: 'about', current: false },
     { name: 'Portfolio', href: 'portfolio', current: false },
     { name: 'Contact', href: 'contact', current: false },
@@ -17,7 +14,6 @@ function classNames(...classes) {
 }
 
 const MainNav = () => {
-    const [toggle, setToggle] = useState(false);
     return (
         <Disclosure as="nav" className="bg-transparent">
             {({ open }) => (
@@ -36,7 +32,7 @@ const MainNav = () => {
                                 </Disclosure.Button>
                             </div>
                             <div className="flex flex-row flex-1 items-center justify-start sm:items-stretch ml-2">
-                                <p className='text-white font-poppins font-bold uppercase xl:text-[22px] text-[20px]'>Twice.Sana</p>
+                                <p className='text-white font-poppins font-bold uppercase xl:text-[22px] text-[20px]'>Jedero</p>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <div className="hidden sm:ml-6 sm:block">

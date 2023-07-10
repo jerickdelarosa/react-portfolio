@@ -6,6 +6,7 @@ import Skills from './sections/Skills'
 import Portfolio from './sections/Portfolio'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
+import ScrollToTop from "./navigations/ScrollToTop"
 
 // export { list of all component-name }
 export {
@@ -15,5 +16,6 @@ export {
     Skills,
     Portfolio,
     Contact,
-    Footer
+    Footer,
+    ScrollToTop
 }

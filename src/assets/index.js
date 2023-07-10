@@ -1,8 +1,6 @@
 // import logo-name from directory
-import menu from "./menu.svg";
-import close from "./close.svg";
-import biancake from './biancake.jpg'
-import sana from './sana.jpg'
+import menu from "./menu.svg"
+import close from "./close.svg"
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
 import linkedin from './linkedin.svg'
@@ -24,22 +22,30 @@ import programming from './programming.svg'
 import webDesign from './web-design.svg'
 import developer from './developer.svg'
 import codeBackground from './code-background.jpg'
-import mechKeeb1 from './mechanical-keyboard-1.jpg'
-import mechKeeb2 from './mechanical-keyboard-2.jpg'
-import mechKeeb3 from './mechanical-keyboard-3.jpg'
 import dotNetCore from './dot-net-core.svg'
 import maleAvatar from './male_avatar.svg'
 import femaleAvatar from './female_avatar.svg'
 import location from './location.svg'
 import phoneCall from './phone-call.svg'
 import mail from './mail.svg'
+import resume from './resume.svg'
+import jedero from './jedero.jpg'
 
+// dts images
+import dtsInfo from './webapp-images/dts/dts-docu-info.png'
+import dtsGmailLogin from './webapp-images/dts/dts-gmail-login.png'
+import dtsOffices from './webapp-images/dts/dts-offices.png'
+import dtsOfficesInfo from './webapp-images/dts/dts-offices-info.png'
+import dtsLogin from './webapp-images/dts/dts-pass-login.png'
+
+// erms v2
+import ermsv2Dashboard from './webapp-images/ermsv2/ermsv2-dashboard.png'
+import ermsv2Request from './webapp-images/ermsv2/ermsv2-request.png'
+import ermsv2RequestDetails from './webapp-images/ermsv2/ermsv2-request-details.png'
 // export { place all import names }
 export {
     menu,
     close,
-    biancake,
-    sana,
     facebook,
     instagram,
     linkedin,
@@ -62,12 +68,21 @@ export {
     webDesign,
     developer,
     codeBackground,
-    mechKeeb1,
-    mechKeeb2,
-    mechKeeb3,
     maleAvatar,
     femaleAvatar,
     location,
     phoneCall,
-    mail
+    mail,
+    resume,
+    jedero,
+
+    dtsInfo,
+    dtsGmailLogin,
+    dtsOffices,
+    dtsOfficesInfo,
+    dtsLogin,
+
+    ermsv2Dashboard,
+    ermsv2Request,
+    ermsv2RequestDetails
 };

@@ -17,8 +17,8 @@ const Skills = () => {
             <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-0 px-6 ss:ml-0 text-center md:text-start lg:pb-10`}>
                 <div className='flex flex-col md:flex-row'>
                     {skills.map((skill, index) => (
-                        <div key={index} className=" flex flex-col rounded-2xl bg-white xs:max-w-xs sm:max-w-xl sm:flex-row md:max-w-xs md:flex-col my-4 md:mx-2 lg:mx-4 ">
-                            <img className="h-auto w-full rounded-t-lg object-contain xs:w-60 xs:h-full sm:w-60 sm:h-48 sm:rounded-none md:w-full md:h-64 md:rounded-none px-4 py-4 self-center" src={skill.image} alt={skill.id} />
+                        <div key={index} className="flex flex-col md:flex-col sm:flex-row self-center md:self-stretch rounded-2xl bg-white w-10/12 ss:w-full xs:max-w-xs sm:max-w-xl md:max-w-xs my-4 md:mx-2 lg:mx-4">
+                            <img className="rounded-t-lg object-contain xs:w-60 sm:w-60 md:w-11/12 w-full h-auto md:h-64 sm:h-48 xs:h-full md:rounded-none sm:rounded-none px-4 py-4 self-center" src={skill.image} alt={skill.id} />
                             <div className="flex flex-col justify-start sm:justify-center md:justify-start p-6">
                                 <h5 className="font-poppins mb-2 text-xl font-semibold text-gray-900 uppercase self-center sm:self-start md:self-center">
                                     {skill.title}

@@ -15,11 +15,16 @@ import {
     ideas,
     programming,
     webDesign,
-    mechKeeb1,
-    mechKeeb2,
-    mechKeeb3,
     maleAvatar,
-    femaleAvatar
+    femaleAvatar,
+    dtsInfo,
+    dtsGmailLogin,
+    dtsOffices,
+    dtsOfficesInfo,
+    dtsLogin,
+    ermsv2Dashboard,
+    ermsv2Request,
+    ermsv2RequestDetails
 } from '../assets'
 
 
@@ -133,8 +138,30 @@ export const projects = [
         id: "project-1",
         title: "DOCUMENT TRACKING SYSTEM",
         year: "2021",
-        description: "A website application for Bulacan State University to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb1,
+        description: "A website application for Bulacan State University that tracks their organizational document transactions.",
+        projectImg: dtsInfo,
+        images: [
+            {
+                id: 1,
+                content: dtsInfo,
+            },
+            {
+                id: 2,
+                content: dtsGmailLogin,
+            },
+            {
+                id: 3,
+                content: dtsOffices,
+            },
+            {
+                id: 4,
+                content: dtsOfficesInfo,
+            },
+            {
+                id: 5,
+                content: dtsLogin,
+            }
+        ],
         languages: [
             {
                 id: "lang-1",
@@ -164,12 +191,34 @@ export const projects = [
             },
         ]
     },
-    {
+    /* {
         id: "project-2",
         title: "E-RECORDS MANAGEMENT SYSTEM",
         year: "2022",
         description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb2,
+        projectImg: dtsOffices,
+        images: [
+            {
+                id: 1,
+                content: dtsInfo,
+            },
+            {
+                id: 2,
+                content: dtsGmailLogin,
+            },
+            {
+                id: 3,
+                content: dtsOffices,
+            },
+            {
+                id: 4,
+                content: dtsOfficesInfo,
+            },
+            {
+                id: 5,
+                content: dtsLogin,
+            }
+        ],
         languages: [
             {
                 id: "lang-1",
@@ -204,13 +253,27 @@ export const projects = [
                 designation: "Web Developer"
             },
         ]
-    },
+    }, */
     {
         id: "project-3",
-        title: "E-RECORDS MANAGEMENT SYSTEM v2",
+        title: "RECORDS MANAGEMENT SYSTEM",
         year: "2023",
-        description: "A website application for Philippine Charity Sweepstakes Office to help them track their internal organizational document transactions.",
-        projectImg: mechKeeb3,
+        description: "A website application for Philippine Charity Sweepstakes Office to track, process and dispose organizational document transactions.",
+        projectImg: ermsv2RequestDetails,
+        images: [
+            {
+                id: 1,
+                content: ermsv2Dashboard
+            },
+            {
+                id: 2,
+                content: ermsv2Request
+            },
+            {
+                id: 3,
+                content: ermsv2RequestDetails
+            },
+        ],
         languages: [
             {
                 id: "lang-1",
