@@ -13,7 +13,7 @@ const Footer = () => (
             <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 font-poppins">© 2023 All rights reserved.</p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 {mediaLinks.map((media, index) => (
-                    <a href={media.link} key={`${media.id}-${index}`} >
+                    <a href={media.link} key={`${media.id}-${index}`} target="_blank">
                         <img src={media.icon} alt={media.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== mediaLinks.length - 1 ? "mr-4" : "mr-0"}`} />
                     </a>
                 ))}

@@ -16,7 +16,7 @@ const Hero = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-2 self-center md:self-auto`}>Hi, I'm Jerick Dela Rosa. A passionate Full Stack Developer based in Manila, Philippines.</p>
             <div className={`flex flex-row mt-3 self-center md:self-auto`}>
                 {mediaLinks.map((media, index) => (
-                    <a href={media.link} key={`${media.id}-${index}`} >
+                    <a href={media.link} key={`${media.id}-${index}`} target="_blank">
                         <img src={media.icon} alt={media.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== mediaLinks.length - 1 ? "mr-4" : "mr-0"}`} />
                     </a>
                 ))}
