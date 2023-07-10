@@ -1,9 +1,7 @@
-import React, { useState, Fragment } from 'react'
-import { menu, close } from '../../assets'
-import { navLinks } from '../../constants'
+import React from 'react'
 
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'About', href: 'about', current: false },
@@ -16,7 +14,6 @@ function classNames(...classes) {
 }
 
 const MainNav = () => {
-    const [toggle, setToggle] = useState(false);
     return (
         <Disclosure as="nav" className="bg-transparent">
             {({ open }) => (
