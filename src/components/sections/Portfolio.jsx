@@ -1,9 +1,14 @@
 import React from 'react'
 import { projects } from '../../constants'
+import Fade from 'react-reveal/Fade'
 
 const ProjectTemplate = ({ title, year, description, projectImg, images, languages, developers, index }) => (
     <div className={`mt-3 lg:-mx-6 md:flex lg:items-center lg:justify-center ${index > 0 ? "pt-16" : "pt-0"}`}>
-        <img className={`order-1 ${index % 2 == 0 ? "md:order-1" : "md:order-2"} object-contain lg:object-scale-down w-full md:mx-6 md:w-1/2  sm:h-72 md:h-80`} src={projectImg} alt="" />
+
+        <Fade left={index % 2 == 0} right={index % 2 != 0} duration={500}>
+            <img className={`order-1 ${index % 2 == 0 ? "md:order-1" : "md:order-2"} object-contain lg:object-scale-down w-full md:mx-6 md:w-1/2  sm:h-72 md:h-80`} src={projectImg} alt={projectImg} />
+        </Fade>
+
         <div className={`order-2 ${index % 2 == 0 ? "md:order-2" : "md:order-1"} mt-6 md:w-1/2 md:mt-0 md:mx-6`}>
             <p className="font-poppins block text-xl font-semibold text-green md:text-2xl">
                 {title}
@@ -12,15 +17,15 @@ const ProjectTemplate = ({ title, year, description, projectImg, images, languag
             <p className="font-poppins mt-3 text-sm text-dimWhite md:text-base">
                 {description}
             </p>
-
-            <div className="flex items-center mt-6">
-                {languages.map((lang, index) => (
-                    <p key={`${lang.id}-${index}`} className="inline-block mx-1 font-poppins tracking-wider rounded bg-dimGreen px-4 pb-2 pt-2 text-xs font-bold uppercase text-white">
-                        {lang.title}
-                    </p>
-                ))}
-
-            </div>
+            <Fade cascade bottom duration={1000}>
+                <div className="flex items-center mt-6">
+                    {languages.map((lang, index) => (
+                        <p key={`${lang.id}-${index}`} className="inline-block mx-1 font-poppins tracking-wider rounded bg-dimGreen px-4 pb-2 pt-2 text-xs font-bold uppercase text-white">
+                            {lang.title}
+                        </p>
+                    ))}
+                </div>
+            </Fade>
 
             <div className='grid sm:grid-cols-2'>
                 {developers.map((dev, index) => (
@@ -35,7 +40,7 @@ const ProjectTemplate = ({ title, year, description, projectImg, images, languag
                 ))}
             </div>
         </div>
-    </div>
+    </div >
 )
 
 const Portfolio = () => (
