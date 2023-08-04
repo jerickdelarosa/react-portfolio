@@ -11,6 +11,7 @@ import bootstrap from './bootstrap.svg'
 import github from './github.svg'
 import laravel from './laravel.svg'
 import react from './react.svg'
+import blazor from './blazor.png'
 import sass from './sass.svg'
 import tailwind from './tailwind.svg'
 import typescript from './typescript.svg'
@@ -56,6 +57,7 @@ export {
     github,
     laravel,
     react,
+    blazor,
     sass,
     tailwind,
     typescript,

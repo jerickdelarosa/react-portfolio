@@ -17,11 +17,11 @@ const Hero = () => (
                     Full Stack<br className='block' /> {" "}
                     <span className='text-green'>Web Developer</span> {" "}
                 </h1>
-                <p className={`${styles.paragraph} max-w-[470px] mt-2 self-center md:self-auto`}>Hi, I'm <span class="text-green font-semibold">Jerick Dela Rosa</span>. A passionate Full Stack Developer based in Manila, Philippines.</p>
+                <p className={`${styles.paragraph} max-w-[470px] mt-2 self-center md:self-auto`}>Hi, I'm <span className="text-green font-semibold">Jerick Dela Rosa</span>. A passionate Full Stack Developer based in Manila, Philippines.</p>
                 <Fade cascade duration={750} right>
                     <div className={`flex flex-row mt-3 self-center md:self-auto`}>
                         {mediaLinks.map((media, index) => (
-                            <a href={media.link} key={`${media.id}-${index}`} target="_blank">
+                            <a href={media.link} key={`${media.id}-${index}`} target="_blank" rel="noreferrer">
                                 <img src={media.icon} alt={media.id} className={`w-[26px] h-[26px] object-contain cursor-pointer ${index !== mediaLinks.length - 1 ? "mr-4" : "mr-0"}`} />
                             </a>
                         ))}

@@ -5,6 +5,7 @@ import {
     aspnet,
     laravel,
     react,
+    blazor,
     sass,
     tailwind,
     typescript,
@@ -87,8 +88,8 @@ export const languages = [
         icon: angular,
     },
     {
-        id: "react",
-        icon: react,
+        id: "blazor",
+        icon: blazor,
     },
     {
         id: "laravel",
