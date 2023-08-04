@@ -88,12 +88,12 @@ export const languages = [
         icon: angular,
     },
     {
-        id: "blazor",
-        icon: blazor,
-    },
-    {
         id: "laravel",
         icon: laravel,
+    },
+    {
+        id: "blazor",
+        icon: blazor,
     },
     {
         id: "net-csharp",
