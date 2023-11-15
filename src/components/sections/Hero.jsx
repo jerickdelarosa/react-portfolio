@@ -8,7 +8,7 @@ const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col sm:py-4 py-4 sm:px-16 px-0`}>
         <Fade duration={500}>
             <div className={`flex-1 flex justify-center items-center flex-row mb-6 md:mb-0 relative`}>
-                <img src={jedero} alt="robot" className='rounded-full sm:w-80 md:w-90 xl:w-96 w-[80%] sm:h-80 md:wh-80 xl:h-96 h-[80%]' />
+                <img src={jedero} alt="robot" className='rounded-full sm:w-80 md:w-90 xl:w-96 w-[80%] sm:h-80 md:h-80 xl:h-96 h-[80%]' />
             </div>
         </Fade>
         <Fade cascade duration={500}>
